@@ -8,6 +8,26 @@
     transform: translate(-50%, -50%);
 }
 
+.monedapuntaje img { 
+    height: 3rem;
+    width: auto;
+    left: 39rem;
+    position: absolute;
+    top: 1rem
+
+}
+ 
+.puntaje {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: bold;
+ position: absolute;
+ color: white;
+ font-size: 2rem;
+left: 41.5rem;
+bottom: 27.6rem;
+
+}
+
 .plataform1 img {
     position: relative;
     height: 1.5rem;
@@ -28,8 +48,39 @@
     position: relative;
     height: 1.5rem;
     width: auto;
-    top: 21.3rem;
+    top: 21.5rem;
     left: 34rem;
 }
 
-.coing img 
+.moneda1 img {
+    height: 4rem;
+    width: auto;
+    top: 10rem;
+    left: 7.7rem;
+    position: relative;
+}
+
+.moneda2 img {
+    height: 4rem;
+    width: auto;
+    top: 0.50rem;
+    left: 23.7rem;
+    position: relative;
+}
+
+.moneda3 img {
+    height: 4rem;
+    width: auto;
+    top: 1rem;
+    left: 37.9rem;
+    position: relative;
+}
+
+.enemigo1 img {
+height: 4rem;
+width: auto;
+position: relative;
+top:3rem;
+left: 7rem;
+
+}
