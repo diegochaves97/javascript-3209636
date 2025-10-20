@@ -84,3 +84,21 @@ top:3rem;
 left: 7rem;
 
 }
+
+.enemigo2 img {
+height: 4rem;
+width: auto;
+position: absolute;
+left: 23rem;
+top: 17.8rem;
+
+}
+
+.enemigo3 img {
+height: 4rem;
+width: auto;
+position: absolute;
+left: 37.2rem;
+top: 22rem;
+
+}
