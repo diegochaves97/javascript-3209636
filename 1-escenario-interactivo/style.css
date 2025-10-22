@@ -2,10 +2,10 @@
     height: 500px;
     width: 750px;
     background-image: url(./img/bg-ghosthouse.png);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    margin: auto;
+    
+
 }
 
 .monedapuntaje img { 
@@ -134,4 +134,105 @@ top: 22rem;
    0%{top:3rem;}
    100%{top:-2rem;}
 
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.contenedor2 {
+    height: 500px;
+    width: 750px;
+    background-image: url(./img/escenario2/fondo.png);
+    position: relative;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.mascarapuntaje img { 
+    height: 3rem;
+    width: auto;
+    left: 39rem;
+    position: absolute;
+    top: 1rem
+
+}
+
+.puntaje2 {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: bold;
+ position: absolute;
+ color: rgb(0, 0, 0);
+ font-size: 2rem;
+left: 42.5rem;
+bottom: 27.6rem;
+}
+
+.pipe1 img {
+position: relative;
+height: 6rem;
+width: auto;
+top: 15rem;
+left: 0rem;
+
+ }
+
+ .pipe2 img {
+position: relative;
+height: 6rem;
+width: auto;
+top: 9rem;
+left:40.4rem;
+transform: rotate(180deg);
+
+ }
+
+ .pipe3 img {
+position: relative;
+height: 8rem;
+width: auto;
+top: 10.8rem;
+left: 10rem;
+
+ }
+
+  .pipe4 img {
+position: relative;
+height: 8rem;
+width: auto;
+top: 2.6rem;
+left: 30rem;
+
+ }
+
+ .shyg1 img {
+height: 7rem;
+width: auto;
+position: relative;
+bottom:19.5rem;
+left: 2.5rem;
+ }
+
+ .shyg2 img {
+height: 7rem;
+width: auto;
+position: relative;
+bottom: 18.5rem;
+left:10.5rem;
+}
+
+.shyg3 img {
+height: 7rem;
+width: auto;
+position: relative;
+bottom: 25.6rem;
+left: 30.5rem;
+transform: scaleX(-1);
+}
+
+.shyg4 img {
+height: 7rem;
+width: auto;
+position: relative;
+bottom: 41rem;
+left: 39.5rem;
+transform: scaleX(-1);
 }
