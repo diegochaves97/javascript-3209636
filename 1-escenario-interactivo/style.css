@@ -236,3 +236,81 @@ bottom: 41rem;
 left: 39.5rem;
 transform: scaleX(-1);
 }
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.contenedor3 {
+    height: 500px;
+    width: 750px;
+    background-image: url(./img/escenario3/Fondocueva.gif);
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.goombapuntaje img { 
+    height: 3rem;
+    width: auto;
+    left: 39rem;
+    position: absolute;
+    top: 1rem;
+    z-index: 10;
+
+}
+
+.puntaje3 {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: bold;
+ position: absolute;
+ color: rgb(255, 255, 255);
+ font-size: 2rem;
+left: 42.5rem;
+bottom: 27.6rem;
+z-index: 10;
+}
+
+.lava {
+height: 3rem;
+width: 100%;
+position: absolute;
+background-image: url(./img/escenario3/Lava.png);
+background-repeat: repeat;
+bottom: 0;
+}
+
+.pipey1 img {
+position: relative;
+height: 11rem;
+width: auto;
+top: -0.6rem;
+left: 2rem;
+transform: rotate(180deg);
+ }
+
+ .pipey2 img {
+position: relative;
+height: 11rem;
+width: auto;
+bottom: 11.9rem;
+left: 19rem;
+transform: rotate(180deg);
+ }
+
+  .pipey3 img {
+position: relative;
+height: 11rem;
+width: auto;
+bottom: 23.2rem;
+left: 35rem;
+transform: rotate(180deg);
+
+ }
+
+ .goomba1 {
+height: 4rem;
+width: auto;
+position: relative;
+top:3rem;
+left: 7rem;
+ }
