@@ -411,6 +411,8 @@ gap: 1rem;
 height: 7rem;
 width: 9rem;
 background-color: black;
+background-image: url(./img/miniaturas/preview1.png);
+background-size: cover;
 
 
  }
