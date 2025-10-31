@@ -68,3 +68,30 @@ item.addEventListener("animationend", () => {
 
 
 })
+
+/*/////////////////////////////////////////CARRUSEL////////////////////////////////////////////*/
+
+
+/*variables*/
+const escenas = document.querySelectorAll(".escena")
+const btnanterior =document.querySelector(".btn-anterior")
+const btnsiguiente = document.querySelector(".btn-siguiente")
+const miniaturas = document.querySelectorAll(".miniatura")
+let indice = 0
+
+console.log(escenas)
+console.log(btnanterior)
+console.log(btnsiguiente)
+console.log(miniaturas)
+
+/*Funciones*/
+function mostrarescena (i) {
+  for (let j = 0; j < escenas.length; j++) {
+     escenas[j].classList.remove("activa")
+  }
+escenas[i].classList.add("activa")
+
+}
+mostrarescena (0)
+
+/*Eventos*/
