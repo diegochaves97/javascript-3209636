@@ -428,6 +428,9 @@ background-size: cover;
 height: 7rem;
 width: 9rem;
 background-color: rgb(0, 0, 0);
+background-image: url(./img/miniaturas/preview3.png);
+background-size: cover;
+
 
 
  }
@@ -436,6 +439,8 @@ background-color: rgb(0, 0, 0);
 height: 7rem;
 width: 9rem;
 background-color: rgb(0, 0, 0);
+background-image: url(./img/miniaturas/preview2.png);
+background-size: cover;
 
 
  }

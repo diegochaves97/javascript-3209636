@@ -91,7 +91,44 @@ function mostrarescena (i) {
   }
 escenas[i].classList.add("activa")
 
+indice = i 
+
 }
-mostrarescena (0)
+mostrarescena (2)
 
 /*Eventos*/
+
+//funcion anterior//
+
+btnanterior.addEventListener ("click", () => { 
+    indice = indice - 1
+    if(indice < 0) {
+indice = escenas.length - 1 //para ir a ultima imagen//
+
+    }
+    mostrarescena (indice)
+}
+
+)
+
+//funcion siguiente//
+
+btnsiguiente.addEventListener ("click", () => { 
+    indice = indice + 1
+    if(indice > escenas.length - 1) {
+indice = 0 //para ir a ultima imagen//
+    }
+    mostrarescena (indice)
+}
+
+)
+
+//////Miniatura/////////
+
+miniaturas.forEach( (min, i) => {min.addEventListener("click", () => {
+    mostrarescena(i)
+
+
+})
+
+});
