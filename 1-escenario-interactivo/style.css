@@ -268,7 +268,7 @@ transform: scaleX(-1);
     position: relative;
     margin: auto;
     margin-top: 1rem;
-   
+    overflow: hidden;
 
 }
 
@@ -310,28 +310,30 @@ bottom: 0;
 position: relative;
 height: 11rem;
 width: auto;
-top: -0.6rem;
+top: -1.6rem;
 left: 2rem;
 transform: rotate(180deg);
+z-index: 1;
  }
 
  .pipey2 img {
 position: relative;
 height: 11rem;
 width: auto;
-bottom: 11.9rem;
+bottom: 12.9rem;
 left: 19rem;
 transform: rotate(180deg);
+z-index: 1;
  }
 
   .pipey3 img {
 position: relative;
 height: 11rem;
 width: auto;
-bottom: 23.2rem;
+bottom: 24.2rem;
 left: 35rem;
 transform: rotate(180deg);
-
+z-index: 1;
  }
 
  .goomba1 img {
@@ -363,7 +365,7 @@ transform: rotate(180deg);
 
  @keyframes enemigosalto2 {
 0%{transform: translateY(0); opacity: 1;}
-100%{transform: translateY(400px);}
+100%{transform: translateY(600px);}
 }
 
 .caidagoomba {
