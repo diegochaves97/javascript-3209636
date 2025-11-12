@@ -1,10 +1,10 @@
-. {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+/* body {
  background-color: #E7D7D3;
 }
 
@@ -25,7 +25,6 @@ color: #E7D7D3;
 }
 
 .botonver { 
-position: absolute;
 top: 180px;
 right: 870px;
 font-size: 30px;
@@ -36,7 +35,6 @@ color: #E7D7D3;
 }
 
 .añadirafav { 
-position: absolute;
 top: 180px;
 right: 630px;
 font-size: 30px;
@@ -51,6 +49,10 @@ position: relative;
 bottom: 180px;
 left: 250px;
 width: 20px;
+font-family: "IM Fell English SC", serif;
+font-weight: 400;
+font-style: normal;
+
 }
 
 .sinopsistexto {
@@ -59,6 +61,10 @@ position: relative;
 bottom: 180px;
 left: 250px;
 width: 800px;
+font-family: "IM Fell English SC", serif;
+font-weight: 400;
+font-style: normal;
+
 
 }
 
@@ -66,19 +72,22 @@ width: 800px;
 list-style-type: none;
 display: flex;
 width: 100px;
-position: absolute;
 top: 450PX;
+font-family: "IM Fell English SC", serif;
+font-weight: 400;
+font-style: normal;
 
 }
 
 .castdepersonajes {
  list-style-type: none;
   padding: 0;
-  position: absolute;
-  left: 270px;
-  top: 400px;
   display: inline;
   width: 600px;
+  font-family: "IM Fell English SC", serif;
+font-weight: 400;
+font-style: normal;
+
 
 }
 
@@ -86,4 +95,147 @@ top: 450PX;
 display: inline;
 
 
+} */
+
+body {
+ background-color: #E7D7D3;
+}
+
+.container {
+display: grid;
+grid-template-columns: 250px auto;
+
+}
+
+.portada img { 
+    width: 200px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.titulocontenedor {  
+background-color: #a7805f;
+padding: 0.2px;
+padding-left: 15px;
+color: #E7D7D3;
+padding: 30px;
+
+}
+
+.titulo { 
+height: 40px;
+width: auto;
+
+}
+
+.botonver { 
+top: 180px;
+right: 870px;
+font-size: 30px;
+padding: 3px 15px;
+background-color: #a7805f;
+color: #E7D7D3; }
+
+
+.añadirafav { 
+
+font-size: 30px;
+padding: 3px 15px;
+background-color: #a7805f;
+color: #E7D7D3;
+}
+
+.botones {
+padding-top: 40px;
+
+}
+
+
+.sinopsis { 
+font-family: "IM Fell English SC", serif;
+font-weight: 400;
+font-style: normal;
+padding-top: 30px;
+
+}
+
+
+.sinopsistexto {
+font-family: "IM Fell English SC", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.informacion1 {
+font-family: "IM Fell English SC", serif;
+font-weight: 400;
+font-style: normal;
+margin-left: 20px;
+list-style-type: none;
+margin-top: 10px;
+width: 120px;
+}
+
+.castdepersonajes {
+ list-style-type: none;
+font-family: "IM Fell English SC", serif;
+font-weight: 400;
+font-style: normal;
+margin-top: 60px;
+
+
+}
+
+.Personajeslista {
+  margin-top: 20px;
+display: flex;
+list-style-type: none;
+font-size: large;
+justify-content: space-around;
+}
+
+/* ===========================
+   Responsive proporcional
+   =========================== */
+@media (max-width: 768px) {
+  body {
+    font-size: 90%;
+    overflow-x: hidden;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  .container, section, header, footer, main, article, div {
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 90%;
+  }
+  button, input, select, textarea {
+    font-size: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 80%;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  .container, section, header, footer, main, article, div {
+    padding: 0 3%;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 85%;
+  }
+  button, input, select, textarea {
+    font-size: 90%;
+  }
 }
