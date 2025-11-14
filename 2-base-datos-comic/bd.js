@@ -1,18 +1,18 @@
 let comic = {
   "nombrecomic": "El tiempo enterrado",
-  "sinopsis": "Metro City",
+  "sinopsis": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollitia ad repellat? Eius adipisci voluptatum, porro distinctio ipsa",
   "year": 2016,
   "autores": "Diego Alonso Chaves Garcia",
-  "personajes": ["p1", "p2", "p3"]
-  "genero": "...",
+  "personajes": ["James Watt", "Mineros", "Eloy", "Ninove"],
+  "genero": ["fantasia", "accion", "ficcion", "aventura"],
   "portada": "./image",
-  "escenas": [ 
+  "escenas": [  
     
     {
-          "id"= 1,
-          "nombre": "moleculaman"
-          "personajes": ["p1", "p2", "p3"]
-          "imagen": "./"
+          "id": 1,
+          "nombre": "moleculaman",
+          "personajes": ["p1", "p2", "p3"],
+          "imagen": "./",
     },
 
     {
