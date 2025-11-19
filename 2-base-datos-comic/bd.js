@@ -41,6 +41,15 @@ let comic = {
     
     {
           "id": 1,
+          "nombre": "Escena1",
+          "personajes": ["James Watt", "Mineros", "Eloy"],
+          "descripcion": "",
+          "imagen": "./",
+    },
+
+        
+    {
+          "id": 1,
           "nombre": "moleculaman",
           "personajes": ["p1", "p2", "p3"],
           "descripcion": "",
