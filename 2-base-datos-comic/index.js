@@ -1,7 +1,7 @@
 const sinopsis1 = document.querySelector(".containersinopsis")
 const informacion = document.querySelector(".info-comic")
 const castdepersonajes = document.querySelector(".castdepersonajes")
-const listaescenas = document.querySelector(".lista-escenas")
+const listaescenas = document.querySelector(".tbody")
 
 
 sinopsis1.innerHTML = ` 
@@ -43,14 +43,18 @@ castdepersonajes.innerhtml = `
        
 `
 
-comic.escenas.foreach(escena => {
+comic.escenas.forEach(escena => {
     const micard = document.createElement("tr")
     // micard.classList.add("tarjeta-cap") //
     micard.innerHTML = `
-  <td>1</td>
-  <td>${comic.escena}</td>
-
+  <td>${escenas.id}</td>
+  <td>${escenas.nombre}</td>
+  <td>${escenas.personajes}</td>
+  <td>${escenas.descripcion}</td>
 `
+
+
+listaescenas.appendChild(micard)
 })
 
 /* 
