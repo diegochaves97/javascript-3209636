@@ -136,7 +136,9 @@ right: 870px;
 font-size: 30px;
 padding: 3px 15px;
 background-color: #a7805f;
-color: #E7D7D3; }
+color: #E7D7D3;
+font-family: "IM Fell English SC", serif;
+}
 
 
 .añadirafav { 
@@ -145,6 +147,7 @@ font-size: 30px;
 padding: 3px 15px;
 background-color: #a7805f;
 color: #E7D7D3;
+font-family: "IM Fell English SC", serif;
 }
 
 .botones {
@@ -176,6 +179,7 @@ margin-left: 20px;
 list-style-type: none;
 margin-top: 10px;
 width: 120px;
+
 }
 
 .castdepersonajes {
@@ -194,11 +198,10 @@ display: flex;
 list-style-type: none;
 font-size: large;
 justify-content: space-around;
+font-family: "IM Fell English SC", serif;
 }
 
-/* ===========================
-   Responsive proporcional
-   =========================== */
+
 @media (max-width: 768px) {
   body {
     font-size: 90%;
@@ -238,4 +241,25 @@ justify-content: space-around;
   button, input, select, textarea {
     font-size: 90%;
   }
+}
+
+.td {
+  font-family: "IM Fell English SC", serif;
+}
+
+.td img { 
+width: 10%;
+height: auto;
+
+}
+
+.card img {
+  width: 30%;
+  height: auto;
+}
+
+.castdepersonajes {
+margin-bottom: 20px;
+margin-top: 20px;
+font-family: "IM Fell English SC", serif;
 }

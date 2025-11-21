@@ -13,22 +13,22 @@ let comic = {
     
     {
       "nombre": "James Watt",
-      "imagen": "",
+      "imagen": "./img/jameswatt.png",
     },
 
  {
       "nombre": "Mineros",
-      "imagen": "",
+      "imagen": "./img/mineros.png",
     },
 
      {
       "nombre": "Eloy",
-      "imagen": "",
+      "imagen": "./img/eloy.png",
     },
 
      {
       "nombre": "Ninove",
-      "imagen": "",
+      "imagen": "./img/ninove.png",
     },
 
   ],
@@ -41,20 +41,109 @@ let comic = {
     
     {
           "id": 1,
-          "nombre": "Escena1",
+          "nombre": "Escena 1",
           "personajes": ["James Watt", "Mineros", "Eloy"],
           "descripcion": "",
-          "imagen": "./",
+          "imagen": "./img/imagenescena.jpg",
     },
 
         
     {
-          "id": 1,
-          "nombre": "moleculaman",
-          "personajes": ["p1", "p2", "p3"],
+          "id": 2,
+          "nombre": "Escena 2",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
           "descripcion": "",
-          "imagen": "./",
+          "imagen": "./img/imagenescena.jpg",
     },
+
+  {
+          "id": 3,
+          "nombre": "Escena 3",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
+          "descripcion": "",
+          "imagen": "./img/imagenescena.jpg",
+    },
+
+      {
+          "id": 4,
+          "nombre": "Escena 4",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
+          "descripcion": "",
+          "imagen": "./img/imagenescena.jpg",
+    },
+
+          {
+          "id": 5,
+          "nombre": "Escena 5",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
+          "descripcion": "",
+          "imagen": "./img/imagenescena.jpg",
+    },
+
+          {
+          "id": 6,
+          "nombre": "Escena 6",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
+          "descripcion": "",
+          "imagen": "./img/imagenescena.jpg",
+    },
+
+          {
+          "id": 7,
+          "nombre": "Escena 7 ",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
+          "descripcion": "",
+          "imagen": "./img/imagenescena.jpg",
+    },
+
+          {
+          "id": 8,
+          "nombre": "Escena 8",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
+          "descripcion": "",
+          "imagen": "./img/imagenescena.jpg",
+    },
+    
+      {
+          "id": 9,
+          "nombre": "Escena 9",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
+          "descripcion": "",
+          "imagen": "./img/imagenescena.jpg",
+    },
+
+          {
+          "id": 10,
+          "nombre": "Escena 10",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
+          "descripcion": "",
+          "imagen": "./img/imagenescena.jpg",
+    },
+
+          {
+          "id": 11,
+          "nombre": "Escena 11",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
+          "descripcion": "",
+          "imagen": "./img/imagenescena.jpg",
+    },
+
+          {
+          "id": 12,
+          "nombre": "Escena 12",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
+          "descripcion": "",
+          "imagen": "./img/imagenescena.jpg",
+    },
+
+          {
+          "id": 13,
+          "nombre": "Escena 13",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
+          "descripcion": "",
+          "imagen": "./img/imagenescena.jpg",
+    },
+    
 
     {
       "name": "Madame Uppercut",

@@ -1,6 +1,6 @@
 const sinopsis1 = document.querySelector(".containersinopsis")
 const informacion = document.querySelector(".info-comic")
-const castdepersonajes = document.querySelector(".castdepersonajes")
+const castdepersonajes = document.querySelector(".card-container")
 const listaescenas = document.querySelector(".tbody")
 
 
@@ -33,28 +33,34 @@ informacion.innerHTML = `
         </aside>
 
 `
+comic.personajes.forEach(personaje => {
+    const micard1 = document.createElement("div")
+    micard1.classList.add("card")
+    micard1.innerHTML = ` 
 
-castdepersonajes.innerhtml = ` 
- <div class="castdepersonajes">
-                <h1 class="Personajes"> Personajes - Cast </h1>
-                <ul class="Personajeslista">
-                    <li> Elloy </li>
-                    <li> James Watt </li>
+        <img src= "${personaje.imagen}">
+        <h3>${personaje.nombre}</h3>
+
        
 `
+    castdepersonajes.appendChild(micard1)
+
+
+})
 
 comic.escenas.forEach(escena => {
     const micard = document.createElement("tr")
     // micard.classList.add("tarjeta-cap") //
     micard.innerHTML = `
-  <td>${escenas.id}</td>
-  <td>${escenas.nombre}</td>
-  <td>${escenas.personajes}</td>
-  <td>${escenas.descripcion}</td>
+  <td>${escena.id}</td>
+  <td>${escena.nombre}</td>
+  <td>${escena.personajes}</td>
+  <td>${escena.descripcion}</td>
+  <td> <img src= "${escena.imagen}"> </td>
 `
 
+    listaescenas.appendChild(micard)
 
-listaescenas.appendChild(micard)
 })
 
 /* 
