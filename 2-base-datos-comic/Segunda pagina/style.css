@@ -5,6 +5,8 @@ body {
             padding: 0;
             background-color: #E7D7D3; /* Fondo sólido */
             font-family: "IM Fell English SC", serif;
+            background-image: url(./img/91b928bb-7a4d-47a4-809c-34092bfe5154\ 2.png);
+    
         }
 
 .titulocontenedor {  
@@ -19,6 +21,7 @@ color: #E7D7D3;
     height: 40px;
     width: auto;
     margin: 20px 20px;
+    color: aliceblue;
 }
 
 .contenedor {
@@ -30,24 +33,37 @@ color: #E7D7D3;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.2);
             justify-content: center;
+            
             display: flex;
         }
 
         .titulodecapitulo {
             text-align: center;
             margin-top: 30px;
-              font-family: "IM Fell English SC", serif;
+         color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
 .listapersonajes {
             
             margin-left: 20px;
-              font-family: "IM Fell English SC", serif;
+         color: aliceblue;
+       
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
         .sinopsis {
 margin-left: 20px;
 margin-right: 20px;
+color: aliceblue;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        .textoparrafo {
+            color: aliceblue;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 
         }
 
