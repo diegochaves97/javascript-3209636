@@ -37,9 +37,10 @@ comic.personajes.forEach(personaje => {
     const micard1 = document.createElement("div")
     micard1.classList.add("card")
     micard1.innerHTML = ` 
-
+    <a href="./Tercerapagina/tercerapagina.html?id=${personaje.nombre}">
         <img src= "${personaje.imagen}">
         <h3>${personaje.nombre}</h3>
+        </a>
 
        
 `
@@ -52,11 +53,13 @@ comic.escenas.forEach(escena => {
     const micard = document.createElement("tr")
     // micard.classList.add("tarjeta-cap") //
     micard.innerHTML = `
+ <a href="...">
   <td>${escena.id}</td>
   <td>${escena.nombre}</td>
   <td>${escena.personajes}</td>
   <td>${escena.descripcion}</td>
-  <td> <img src= "${escena.imagen}"> </td>
+  <td> <img src= "${escena.imagen}" width="100">  <br> <a href="./Segundapagina/segundapagina.html?id=${escena.id}">Ver Escena</a> </td>
+  </a>
 `
 
     listaescenas.appendChild(micard)

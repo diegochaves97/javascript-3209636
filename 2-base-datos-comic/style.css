@@ -263,3 +263,8 @@ margin-bottom: 20px;
 margin-top: 20px;
 font-family: "IM Fell English SC", serif;
 }
+
+a {
+    color: inherit;     
+    text-decoration: none;
+}
