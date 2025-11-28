@@ -1,0 +1,30 @@
+
+    <div class="card">
+        <img src="./img/ninove.png" alt="Foto personaje">
+        <div class="info">
+            <h2>Ninove</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, a quia? Ipsam ullam, error, consequatur possimus maiores quibusdam ab qui commodi quisquam, laudantium libero nihil nostrum saepe recusandae minima necessitatibus?</p>
+           
+        </div>
+    </div>
+    
+
+
+    <div class="card">
+        <img src="./img/eloy.png" alt="Foto personaje">
+        <div class="info">
+            <h2>Eloy</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, et? Quidem eum similique rem nobis cum quos voluptates. Debitis laudantium officia quibusdam nesciunt, ullam quis explicabo placeat voluptas aut animi.</p>
+           
+        </div>
+    </div>
+    
+
+ <div class="card">
+        <img src="./img/mineros.png" alt="Foto personaje">
+        <div class="info">
+            <h2>Mineros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste culpa nihil, natus distinctio aliquid temporibus iure veritatis accusantium maxime eveniet iusto quo. Aspernatur numquam placeat ex possimus aliquid perspiciatis sit.</p>
+           
+        </div>
+    </div>

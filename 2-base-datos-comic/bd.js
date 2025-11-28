@@ -1,4 +1,4 @@
-let comic = {
+export let comic = {
   "nombrecomic": "El tiempo enterrado",
   "sinopsis": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollitia ad repellat? Eius adipisci voluptatum, porro distinctio ipsa",
   "year": 2016,
@@ -12,23 +12,31 @@ let comic = {
   "personajes":[
     
     {
+      "id": 1,
       "nombre": "James Watt",
       "imagen": "./img/jameswatt.png",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit" , 
     },
 
  {
+      "id": 2,
       "nombre": "Mineros",
       "imagen": "./img/mineros.png",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
     },
 
      {
+      "id": 3,
       "nombre": "Eloy",
       "imagen": "./img/eloy.png",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
     },
 
      {
+      "id": 4,
       "nombre": "Ninove",
       "imagen": "./img/ninove.png",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
     },
 
   ],

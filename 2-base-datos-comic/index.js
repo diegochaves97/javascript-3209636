@@ -1,3 +1,5 @@
+import { comic } from "./bd.js"
+
 const sinopsis1 = document.querySelector(".containersinopsis")
 const informacion = document.querySelector(".info-comic")
 const castdepersonajes = document.querySelector(".card-container")
@@ -37,7 +39,7 @@ comic.personajes.forEach(personaje => {
     const micard1 = document.createElement("div")
     micard1.classList.add("card")
     micard1.innerHTML = ` 
-    <a href="./Tercerapagina/tercerapagina.html?id=${personaje.nombre}">
+    <a href="./Tercerapagina/tercerapagina.html?id=${personaje.id}">
         <img src= "${personaje.imagen}">
         <h3>${personaje.nombre}</h3>
         </a>
