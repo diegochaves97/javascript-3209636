@@ -121,3 +121,14 @@ listaescenas.innerHTML = `
     </tbody>
 
 `   */
+
+    const track = document.querySelector('.carrusel-track');
+    const slides = document.querySelectorAll('.slide');
+    let index = 0;
+
+    function moverCarrusel() {
+        index = (index + 1) % slides.length;
+        track.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    setInterval(moverCarrusel, 5000); 

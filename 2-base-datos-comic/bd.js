@@ -8,6 +8,7 @@ export let comic = {
   "portada": "./img/Portada.png",
   "producido": "Narramentum",
   "status": "completo",
+  "video": "./video/kangerscream.mp4",
    
   "personajes":[
     
@@ -50,9 +51,13 @@ export let comic = {
     {
           "id": 1,
           "nombre": "Escena 1",
-          "personajes": ["James Watt", "Mineros", "Eloy"],
-          "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+          "personaje1": ["James Watt"],
+           "personaje2": ["Ninove"],
+           "personaje3": ["Eloy"],
+          "personaje4": ["Mineros"],
+          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+           "imagen": "./img/imagenescena.jpg", 
+           "video": "./video/fish.mp4",
     },
 
         
@@ -62,6 +67,8 @@ export let comic = {
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
           "descripcion": "",
           "imagen": "./img/imagenescena.jpg",
+           "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+         "video": "./video/kangerscream.mp4",
     },
 
   {
@@ -70,6 +77,8 @@ export let comic = {
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
           "descripcion": "",
           "imagen": "./img/imagenescena.jpg",
+           "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+           "video": "./video/kangerscream.mp4",
     },
 
       {
@@ -78,6 +87,8 @@ export let comic = {
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
           "descripcion": "",
           "imagen": "./img/imagenescena.jpg",
+           "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+         "video": "./video/kangerscream.mp4",
     },
 
           {
@@ -86,6 +97,7 @@ export let comic = {
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
           "descripcion": "",
           "imagen": "./img/imagenescena.jpg",
+          "video": "./video/kangerscream.mp4",
     },
 
           {

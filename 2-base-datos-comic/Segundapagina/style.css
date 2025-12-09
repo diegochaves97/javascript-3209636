@@ -72,3 +72,28 @@ color: aliceblue;
             margin: 10px 0 0 0;
             padding-left: 20px;
         }
+
+.botonvolver { 
+top: 180px;
+right: 870px;
+font-size: 30px;
+padding: 3px 15px;
+background-color: #a7805f;
+color: #E7D7D3;
+font-family: "IM Fell English SC", serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botonvolver:hover {
+  background-color: #22180f;    
+  transform: scale(1.03);         
+}
+
+.boton {
+margin-top: 3%;
+margin-bottom: 3%;
+display: flex;
+justify-content: center;
+
+}
