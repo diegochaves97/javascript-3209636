@@ -99,6 +99,13 @@ display: inline;
 
 body {
  background-color: #E7D7D3;
+ opacity: 0;
+ animation: fadeopacity 3.2s ease-out forwards;
+}
+
+@keyframes fadeopacity {
+from {opacity: 0;}
+to {opacity: 1;}
 }
 
 .container {
@@ -115,12 +122,15 @@ grid-template-columns: 250px auto;
 
 }
 
+
+
 .titulocontenedor {  
 background-color: #a7805f;
 padding: 0.2px;
 padding-left: 15px;
 color: #E7D7D3;
 padding: 30px;
+
 
 }
 

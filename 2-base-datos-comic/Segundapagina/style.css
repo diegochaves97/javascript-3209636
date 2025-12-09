@@ -6,8 +6,13 @@ body {
             background-color: #E7D7D3; /* Fondo sólido */
             font-family: "IM Fell English SC", serif;
             background-image: url(./img/91b928bb-7a4d-47a4-809c-34092bfe5154\ 2.png);
-    
+            animation: fadeopacity 3.2s ease-out forwards;
         }
+
+        @keyframes fadeopacity {
+from {opacity: 0;}
+to {opacity: 1;}
+}
 
 .titulocontenedor {  
 background-color: #a7805f;
