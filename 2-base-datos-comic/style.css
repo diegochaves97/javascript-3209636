@@ -208,19 +208,25 @@ width: 120px;
 }
 
 .castdepersonajes {
- list-style-type: none;
+list-style-type: none;
 font-family: "IM Fell English SC", serif;
 font-weight: 400;
 font-style: normal;
-margin-top: 60px;
 
+}
 
+.card-container {
+
+display: flex;
+flex-wrap: nowrap;
+text-align: center;
+margin-top: 6%;
+justify-content: space-around;
+gap: 1%;
 }
 
 .Personajeslista {
   margin-top: 20px;
-display: flex;
-list-style-type: none;
 font-size: large;
 justify-content: space-around;
 font-family: "IM Fell English SC", serif;
@@ -288,9 +294,23 @@ height: auto;
 
 }
 
+thead { 
+  width: 90%;
+
+
+}
+
+.tbody { 
+position: absolute;
+
+
+}
+
 .card img {
-  width: 30%;
-  height: auto;
+  width: 150px;     /* o el tamaño que quieras */
+    height: 150px;    /* fuerza uniformidad */
+    object-fit:cover /* mantiene proporción sin deformar */
+  
 }
 
 .castdepersonajes {

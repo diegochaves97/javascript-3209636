@@ -51,12 +51,13 @@ export let comic = {
     {
           "id": 1,
           "nombre": "Escena 1",
+          "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
           "personaje1": ["James Watt"],
            "personaje2": ["Ninove"],
            "personaje3": ["Eloy"],
           "personaje4": ["Mineros"],
           "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
-           "imagen": "./img/imagenescena.jpg", 
+           "imagen": "./img/play.png", 
            "video": "./video/fish.mp4",
     },
 
@@ -66,7 +67,7 @@ export let comic = {
           "nombre": "Escena 2",
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
           "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+          "imagen": "./img/play.png",
            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
          "video": "./video/kangerscream.mp4",
     },
@@ -76,7 +77,7 @@ export let comic = {
           "nombre": "Escena 3",
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
           "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+          "imagen": "./img/play.png",
            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
            "video": "./video/kangerscream.mp4",
     },
@@ -86,7 +87,7 @@ export let comic = {
           "nombre": "Escena 4",
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
           "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+          "imagen": "./img/play.png",
            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
          "video": "./video/kangerscream.mp4",
     },
@@ -95,8 +96,8 @@ export let comic = {
           "id": 5,
           "nombre": "Escena 5",
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
-          "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+          "imagen": "./img/play.png",
           "video": "./video/kangerscream.mp4",
     },
 
@@ -104,88 +105,65 @@ export let comic = {
           "id": 6,
           "nombre": "Escena 6",
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
-          "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+          "imagen": "./img/play.png",
     },
 
           {
           "id": 7,
           "nombre": "Escena 7 ",
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
-          "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+          "imagen": "./img/play.png",
     },
 
           {
           "id": 8,
           "nombre": "Escena 8",
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
-          "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+          "imagen": "./img/play.png",
     },
     
       {
           "id": 9,
           "nombre": "Escena 9",
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
-          "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+           "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+          "imagen": "./img/play.png",
     },
 
           {
           "id": 10,
           "nombre": "Escena 10",
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
-          "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+          "imagen": "./img/play.png",
     },
 
           {
           "id": 11,
           "nombre": "Escena 11",
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
-          "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+          "imagen": "./img/play.png",
     },
 
           {
           "id": 12,
           "nombre": "Escena 12",
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
-          "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+          "imagen": "./img/play.png",
     },
 
           {
           "id": 13,
           "nombre": "Escena 13",
           "personajes":  ["James Watt", "Mineros", "Eloy", "Ninove"],
-          "descripcion": "",
-          "imagen": "./img/imagenescena.jpg",
+          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil veritatis reiciendis id. Perspiciatis dolorum debitis placeat quos, asperiores fugit ea repellat unde excepturi  uaerat ad necessitatibus vero ipsum rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatqem tempore magnam sunt, mollit",
+          "imagen": "./img/play.png",
     },
     
-
-    {
-      "name": "Madame Uppercut",
-      "age": 39,
-      "secretIdentity": "Jane Wilson",
-      "powers": [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
-    },
-    {
-      "name": "Eternal Flame",
-      "age": 1000000,
-      "secretIdentity": "Unknown",
-      "powers": [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
-      ]
-    }
   ]
 }
