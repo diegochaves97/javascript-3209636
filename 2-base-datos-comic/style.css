@@ -238,51 +238,18 @@ font-family: "IM Fell English SC", serif;
 }
 
 .card img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  margin: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: 0.2 ease;
+  font-size: 2rem;
+   box-shadow: 0px 0px 90px #000000
+     0px 0px 20px #000000 inset;
+      border: 2px solid #22180f;
 }
 
 
-@media (max-width: 768px) {
-  body {
-    font-size: 90%;
-    overflow-x: hidden;
-  }
-  img, video {
-    max-width: 100%;
-    height: auto;
-  }
-  .container, section, header, footer, main, article, div {
-    width: 100%;
-    padding: 0 5%;
-    box-sizing: border-box;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 90%;
-  }
-  button, input, select, textarea {
-    font-size: 95%;
-  }
-}
 
-@media (max-width: 480px) {
-  body {
-    font-size: 80%;
-  }
-  img, video {
-    max-width: 100%;
-    height: auto;
-  }
-  .container, section, header, footer, main, article, div {
-    padding: 0 3%;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 85%;
-  }
-  button, input, select, textarea {
-    font-size: 90%;
-  }
-}
 
 .td {
   font-family: "IM Fell English SC", serif;
@@ -307,9 +274,9 @@ position: absolute;
 }
 
 .card img {
-  width: 150px;     /* o el tamaño que quieras */
-    height: 150px;    /* fuerza uniformidad */
-    object-fit:cover /* mantiene proporción sin deformar */
+  width: 150px;    
+    height: 150px;    
+    object-fit:cover 
   
 }
 
@@ -391,11 +358,141 @@ a {
     background: rgba(0,0,0,0.7);
 }
 
-/* Posiciones */
+
 .carrusel .prev {
     left: 15px;
 }
 
 .carrusel .next {
     right: 15px;
+}
+
+
+@media (max-width: 768px) {
+
+ 
+  .container {
+      display: block;
+      grid-template-columns: 1fr;
+      width: 100%;
+  }
+
+  
+  .info-comic {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+  }
+
+  .portada img {
+      width: 60%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+
+    }
+
+  .informacion1 {
+      width: auto;
+      margin-left: 0;
+      text-align: center;
+      font-size: 1rem;
+  }
+
+
+  .botones {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+      margin-top: 20px;
+      align-items:  center;
+  }
+
+  .botonver,
+  .añadirafav {
+      width: 90%;
+      font-size: 1.2rem;
+  }
+
+ 
+  .containersinopsis {
+      padding: 10px;
+      width: 100%;
+  }
+
+  .sinopsistexto {
+      width: 100%;
+      line-height: 1.5rem;
+      font-size: 1rem;
+  }
+
+
+  .card-container {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+  }
+
+  .card img {
+      width: 120px;
+      height: 120px;
+  }
+
+  .Personajeslista {
+      text-align: center;
+  }
+
+ 
+  .lista-escenas {
+      width: 100%;
+      font-size: 0.9rem;
+      display: block;
+      overflow-x: auto;
+  }
+
+  .tbody td img {
+      width: 70px;
+      height: auto;
+  }
+
+  .carrusel {
+      max-width: 100%;
+      border-radius: 0;
+  }
+
+  .carrusel-controles button {
+      font-size: 22px;
+      padding: 6px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .portada img {
+      width: 80%;
+  }
+
+  .botonver,
+  .añadirafav {
+      font-size: 1rem;
+      padding: 10px;
+  }
+
+  .card img {
+      width: 100px;
+      height: 100px;
+  }
+
+  .sinopsistexto {
+      font-size: 0.9rem;
+  }
+
+  .carrusel-controles button {
+      font-size: 18px;
+      padding: 5px 8px;
+  }
 }
