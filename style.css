@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+ background-color: #a7805f;
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+ min-height: 100vh; 
+  animation: fadeopacity 3.2s ease-out forwards;
+}
+
+@keyframes fadeopacity {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+.hero { 
+
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+
+}
+
+.hero img { 
+ 
+   height: auto; 
+   width: 50vw; 
+   max-width: 600px; 
+   margin-bottom: 30px; 
+}
+
+.botoninicio { 
+  
+   top: 180px;
+right: 870px;
+font-size: 30px;
+padding: 3px 15px;
+background-color: #a7805f;
+color: #E7D7D3;
+font-family: "IM Fell English SC", serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botoninicio:hover {
+  background-color: #22180f;    
+  transform: scale(1.03);         
+}
