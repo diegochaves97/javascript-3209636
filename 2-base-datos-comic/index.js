@@ -22,12 +22,12 @@ informacion.innerHTML = `
             <section class="seccion2">
                 <div class="informacion">
                     <ul class="informacion1">
-                         <li> Genero: ${comic.genero} </li>
+                         <li> Género: ${comic.genero} </li>
                         <li> Fecha: ${comic.year} </li>
                         <li> Estado: ${comic.status}</li>
                         <li> Producido: ${comic.producido}</li>
                         <li> Creadores: ${comic.autores}</li>
-                        <li> Pagina Oficial: <a href="www.Narramentum.com"> Narramentum Website </a> </li>
+                        <li> Página oficial: <a href="www.Narramentum.com"> Narramentum Website </a> </li>
                     </ul>
 
                 </div>
@@ -60,7 +60,7 @@ comic.escenas.forEach(escena => {
   <td>${escena.nombre}</td>
   <td>${escena.personajes}</td>
   <td>${escena.descripcion}</td>
-  <td> <img src= "${escena.imagen}" width="100">  <br> <a href="./Segundapagina/segundapagina.html?id=${escena.id}">Ver Escena</a> </td>
+  <td> <a href="./Segundapagina/segundapagina.html?id=${escena.id}"> <img src= "${escena.imagen}" width="100"> </a> </td>
   </a>
 `
 
